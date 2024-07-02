@@ -1,0 +1,23 @@
+_id: req_761a39105d394247b2bc00cbf89bf482
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1701878611697
+created: 1701878593812
+url: "{{ _.base_url }}/images/generations"
+name: Image models
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832434.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

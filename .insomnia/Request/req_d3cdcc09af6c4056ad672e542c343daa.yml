@@ -1,0 +1,49 @@
+_id: req_d3cdcc09af6c4056ad672e542c343daa
+type: Request
+parentId: fld_13cc833e49c9447eb9895fb4bebb5937
+modified: 1716404749708
+created: 1716404621001
+url: http://127.0.0.1:8000/api/v1/sitemap
+name: Gen Page
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"website_description": "a personal portfolio website that emphasizes the creator's work, skills, and professional background, with a clean and modern design that encourages visitors to explore the portfolio and get in touch"
+    }
+parameters:
+  - id: pair_7626d07867b54921aaf339b7bba6fb12
+    name: website_description
+    value: a personal portfolio website that emphasizes the creator's work, skills,
+      and professional background, with a clean and modern design that
+      encourages visitors to explore the portfolio and get in touch
+    description: ""
+    disabled: false
+  - id: pair_5a8bef57ebde4055943c66a6dd8406df
+    name: page_name
+    value: Homepage
+    description: ""
+  - id: pair_01ae4383de034b0dbbcb83990c8620b9
+    name: page_description
+    value: A game information website's homepage that provides easy access to
+      in-depth game reviews, the latest news and updates from the gaming world,
+      comprehensive strategy guides to help players overcome challenges in
+      various games, and community forums that enable gamers to connect, share
+      tips and experiences, and discuss all things related to video games.
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1709831377083
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

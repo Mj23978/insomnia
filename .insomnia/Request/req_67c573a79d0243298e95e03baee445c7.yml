@@ -1,0 +1,25 @@
+_id: req_67c573a79d0243298e95e03baee445c7
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702145231435
+created: 1702145229557
+url: "{{ _.url }}/PMWorks/WOSupplier"
+name: Get WOSupplier
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452820658.0977
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

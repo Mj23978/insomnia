@@ -1,0 +1,25 @@
+_id: req_574c0b41c5874389b542facd4b6b914a
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702242660948
+created: 1701059062045
+url: "{{ _.url }}/PMWorks/WOTemplate?ordering=id&page=1&page_size=10"
+name: Get WOTemplate
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452815160.791
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

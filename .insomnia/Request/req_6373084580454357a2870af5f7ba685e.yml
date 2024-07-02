@@ -1,0 +1,40 @@
+_id: req_6373084580454357a2870af5f7ba685e
+type: Request
+parentId: fld_13cc833e49c9447eb9895fb4bebb5937
+modified: 1715479977802
+created: 1715373393969
+url: http://127.0.0.1:8000/api/v1/job-search
+name: Run Crew
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"companies": [
+    		"Google"
+    	],
+    	"positions": [
+    		"CTO"
+    	]
+    }
+parameters:
+  - id: pair_7626d07867b54921aaf339b7bba6fb12
+    name: job_id
+    value: mo
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1712203617441
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

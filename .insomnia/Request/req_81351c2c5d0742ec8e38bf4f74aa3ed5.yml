@@ -1,0 +1,37 @@
+_id: req_81351c2c5d0742ec8e38bf4f74aa3ed5
+type: Request
+parentId: fld_13cc833e49c9447eb9895fb4bebb5937
+modified: 1716404299311
+created: 1716404108699
+url: http://127.0.0.1:8000/api/v1/sitemap
+name: Gen Website
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"website_description": "a personal portfolio website that emphasizes the creator's work, skills, and professional background, with a clean and modern design that encourages visitors to explore the portfolio and get in touch"
+    }
+parameters:
+  - id: pair_7626d07867b54921aaf339b7bba6fb12
+    name: website_description
+    value: a personal portfolio website that emphasizes the creator's work, skills,
+      and professional background, with a clean and modern design that
+      encourages visitors to explore the portfolio and get in touch
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1710622123869
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

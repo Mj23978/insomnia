@@ -1,0 +1,25 @@
+_id: req_c4757055424b4280ab85ab4804f42910
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702242588763
+created: 1702158401471
+url: "{{ _.url }}/PMWorks/Location/"
+name: Get Location
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452832882.2925
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

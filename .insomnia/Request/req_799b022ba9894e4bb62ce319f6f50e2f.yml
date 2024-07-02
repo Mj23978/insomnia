@@ -1,0 +1,25 @@
+_id: req_799b022ba9894e4bb62ce319f6f50e2f
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1701709091617
+created: 1701709089635
+url: "{{ _.url }}/PMWorks/AssetClassSpecificData"
+name: Get AssetClassSpecificData
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699477849697.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

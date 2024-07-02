@@ -1,0 +1,31 @@
+_id: req_2384f51435204051b082ed355437a10a
+type: Request
+parentId: fld_38360f3ff380460684006228e0a43891
+modified: 1716459568759
+created: 1715724830710
+url: http://localhost:11434/api/embeddings
+name: Embeddings
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"model": "nomic-embed-text",
+    	"prompt": "sdhellawdwsdddo world sdsds sdssdd"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1715724830710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

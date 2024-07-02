@@ -1,0 +1,26 @@
+_id: fld_c0a3cd206e3b4d0896da01b16fedbc6f
+type: RequestGroup
+parentId: wrk_62ac0ac8224744d0af364eb753cae566
+modified: 1719241919677
+created: 1718193434866
+name: Monet
+description: ""
+environment:
+  token: "{% response 'body', 'req_8a195e64277d47449ca4e2e8a8bcc58e',
+    'b64::JC5kYXRhLmFjY2Vzcw==::46b', 'when-expired', 28800 %}"
+  refresh: "{% response 'body', 'req_8a195e64277d47449ca4e2e8a8bcc58e',
+    'b64::JC5kYXRhLnJlZnJlc2g=::46b', 'never', 60 %}"
+  base_url: http://localhost:5564
+  api_key: +dKVSdHI/jiiKgCvsIpmS7c18L14AJaRdi/pN0uc7MQ=
+  website: "{% response 'body', 'req_7323ce9af4034b1a8465dc1a148866a5',
+    'b64::JC5kYXRhLlswXS5pZA==::46b', 'no-history', 60 %}"
+  customer: ""
+environmentPropertyOrder:
+  "&":
+    - token
+    - refresh
+    - base_url
+    - api_key
+    - website
+    - customer
+metaSortKey: -1718193434866

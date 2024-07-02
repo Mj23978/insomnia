@@ -1,0 +1,25 @@
+_id: req_29fdd76347dc47e8a72bf735a8871872
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1701760772119
+created: 1701760770110
+url: "{{ _.url }}/PMWorks/JobCategory"
+name: Get JobCategory
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452838994.3901
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

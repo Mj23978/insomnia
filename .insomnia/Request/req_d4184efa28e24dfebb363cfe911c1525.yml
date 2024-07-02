@@ -1,0 +1,23 @@
+_id: req_d4184efa28e24dfebb363cfe911c1525
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1699358164253
+created: 1699358071155
+url: "{{ _.base_url }}/prompts?full=true"
+name: Prompt Templates
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832413.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

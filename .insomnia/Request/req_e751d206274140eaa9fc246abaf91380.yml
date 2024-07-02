@@ -1,0 +1,25 @@
+_id: req_e751d206274140eaa9fc246abaf91380
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702242614998
+created: 1702163822658
+url: "{{ _.url }}/PMWorks/SparePartCost/"
+name: Get SparePartCost
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452822950.1343
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

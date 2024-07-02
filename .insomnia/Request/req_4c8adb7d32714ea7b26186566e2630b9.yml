@@ -1,0 +1,37 @@
+_id: req_4c8adb7d32714ea7b26186566e2630b9
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1701342773364
+created: 1699583414915
+url: localhost:8080/images/generations
+name: Image Generations [ Novita + Download ]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"prompt": "anime key visual, Mint green paint splotches, (Apollo Belenus:1.2) Campaigning for a cause, Mythical, smiling, in Colorful dark red Halter dress, Dancing, Warrior Aztec dark white Goggles, Tattoos, Bronze background, (art by Ilya Kuvshinov:0.8) , (John William Waterhouse:1.2) , Realistic, Light, Glowwave, 35mm, rich color, Flickr, Best quality",
+    	"negative_prompt": "",
+    	"api_key": "d734a50e-0fc4-4de0-8b9b-e2a6acafc302",
+    	"model": "turbovisionxlSuperFastXLBasedOnNew_alphaV0101Bakedvae.safetensors",
+    	"steps": 2,
+    	"size": "1024x1024",
+    	"download_path": "{image}",
+    	"response_format": "url"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697256720824
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

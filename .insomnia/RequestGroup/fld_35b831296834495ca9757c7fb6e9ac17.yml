@@ -1,0 +1,13 @@
+_id: fld_35b831296834495ca9757c7fb6e9ac17
+type: RequestGroup
+parentId: wrk_62ac0ac8224744d0af364eb753cae566
+modified: 1699352914942
+created: 1699352821381
+name: Open Server
+description: ""
+environment:
+  base_url: http://127.0.0.1:8080
+environmentPropertyOrder:
+  "&":
+    - base_url
+metaSortKey: -1699352821381

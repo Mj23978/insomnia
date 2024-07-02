@@ -1,0 +1,23 @@
+_id: req_6b3b7a9859b74c1d9f0f9e3665902716
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1699358019598
+created: 1695573447815
+url: "{{ _.base_url }}/hello/mj"
+name: Hello
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832470
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

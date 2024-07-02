@@ -1,0 +1,36 @@
+_id: req_17683a0855fc4f65972dabbbe49e8b81
+type: Request
+parentId: fld_b84a5a9ca03e445b859f0314061702a6
+modified: 1700682957320
+created: 1700660559027
+url: https://generativelanguage.googleapis.com/v1beta3/models/text-bison-001:generateText
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"prompt": {
+    		"text": "Write a story about a magic backpack"
+    	}
+    }
+parameters:
+  - id: pair_c48e7581eddf439eb79f01c76eab2950
+    name: key
+    value: AIzaSyDRNmS5Px7LvSXDA5rLbrfTrLRQFCyBW74
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699452814546
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

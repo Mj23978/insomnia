@@ -1,0 +1,28 @@
+_id: req_4a1ddc166bae4e75a6552ccd5988d631
+type: Request
+parentId: fld_13cc833e49c9447eb9895fb4bebb5937
+modified: 1716404761605
+created: 1716404321000
+url: http://127.0.0.1:8000/api/v1/sitemap/d7474fec-b8a5-4cfa-88c9-0a4300f66e66
+name: Get Website Job ID
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7626d07867b54921aaf339b7bba6fb12
+    name: job_id
+    value: mo
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1713785111013
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

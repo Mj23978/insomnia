@@ -1,0 +1,41 @@
+_id: req_ebf2d3301de746f3ba4bf6d81821cd6b
+type: Request
+parentId: fld_c0a3cd206e3b4d0896da01b16fedbc6f
+modified: 1719130727536
+created: 1718983412845
+url: "{{ _.base_url }}/api/v1/appointment"
+name: Create Appointment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2024-06-21T17:03:59.539Z",
+    	"slot": "/slot-1",
+    	"websiteId": "{{ _.website }}",
+    	"customerId": "1e86f9b8-aa2a-4773-9fa5-9bf552fb815d"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4ccb79e26cee495baaf43289474db598
+  - id: pair_a0035e34db244a48898e555473ca82c3
+    name: X-API-KEY
+    value: "{{ _.api_key }}"
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1717085993628.3745
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

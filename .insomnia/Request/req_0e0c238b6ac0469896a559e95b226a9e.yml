@@ -1,0 +1,28 @@
+_id: req_0e0c238b6ac0469896a559e95b226a9e
+type: Request
+parentId: fld_13cc833e49c9447eb9895fb4bebb5937
+modified: 1715480404659
+created: 1715366586051
+url: http://127.0.0.1:8000/api/v1/job-search/f9c706d2-500c-46ea-83d2-b441f8524baa
+name: Get Crew Job ID
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7626d07867b54921aaf339b7bba6fb12
+    name: job_id
+    value: mo
+    description: ""
+    disabled: true
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1715366604585
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

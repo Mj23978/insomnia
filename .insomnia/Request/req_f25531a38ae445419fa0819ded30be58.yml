@@ -1,0 +1,63 @@
+_id: req_f25531a38ae445419fa0819ded30be58
+type: Request
+parentId: wrk_62ac0ac8224744d0af364eb753cae566
+modified: 1702703907768
+created: 1702698951866
+url: https://openrouter.ai/api/v1/chat/completions
+name: Chat Completion [ Function-Call ]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"model": "mistralai/mixtral-8x7b-instruct",
+    	"messages": [
+    		{
+    			"role": "user",
+    			"content": "What is the weather like in Mashhad in celsius ?"
+    		}
+    	],
+    	"functions": [
+    		{
+    			"name": "get_current_weather",
+    			"description": "Get the current weather in a given location",
+    			"parameters": {
+    				"type": "object",
+    				"properties": {
+    					"location": {
+    						"type": "string",
+    						"description": "The city and state, e.g. San Francisco, CA"
+    					},
+    					"unit": {
+    						"type": "string",
+    						"enum": [
+    							"celsius",
+    							"fahrenheit"
+    						]
+    					}
+    				},
+    				"required": [
+    					"location"
+    				]
+    			}
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: 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
+metaSortKey: -1695109004742.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

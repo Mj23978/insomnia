@@ -1,0 +1,23 @@
+_id: req_e8f33cc9282b4232857551efa3f58b37
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1699358655007
+created: 1699354951610
+url: "{{ _.base_url }}/embeddings"
+name: Embeddings models
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832427.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

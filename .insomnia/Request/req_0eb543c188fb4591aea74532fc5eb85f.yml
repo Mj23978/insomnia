@@ -1,0 +1,35 @@
+_id: req_0eb543c188fb4591aea74532fc5eb85f
+type: Request
+parentId: fld_b84a5a9ca03e445b859f0314061702a6
+modified: 1699457759303
+created: 1699455859670
+url: http://127.0.0.1:8080/completion
+name: generate json
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"prompt": "David Nguyen is a sophomore majoring in computer science at Stanford University. He is Asian American and has a 3.8 GPA. David is known for his programming skills and is an active member of the university's Robotics Club. He hopes to pursue a career in artificial intelligence after graduating.",
+    	"n_ctx": 4096,
+    	"presence_penalty": 0.5,
+    	"repeat_penalty": 1.4,
+    	"stop": ["\n\n\n", "## USER:"],
+    	"grammer": ".\\grammers\\json.gbnf"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699402823458
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

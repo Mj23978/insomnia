@@ -1,0 +1,37 @@
+_id: req_298615c11b6648caaebe14d967920b71
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1709655146979
+created: 1709655092932
+url: http://localhost:8000/v1/chat/completions
+name: Llama.cpp2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"messages": [
+    		{
+    			"role": "user",
+    			"content": "What is the weather like in Mashhad in celsius ?"
+    		}
+    	],
+    	"max_tokens": 400,
+    	"stream": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1704346863077.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

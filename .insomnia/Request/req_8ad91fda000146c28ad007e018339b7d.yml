@@ -1,0 +1,25 @@
+_id: req_8ad91fda000146c28ad007e018339b7d
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1701760377302
+created: 1701760371974
+url: "{{ _.url }}/PMWorks/FailureCause"
+name: Get FailureCause
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452912339.5608
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

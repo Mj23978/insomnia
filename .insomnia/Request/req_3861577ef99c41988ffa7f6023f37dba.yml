@@ -1,0 +1,31 @@
+_id: req_3861577ef99c41988ffa7f6023f37dba
+type: Request
+parentId: wrk_62ac0ac8224744d0af364eb753cae566
+modified: 1695638875503
+created: 1695636113986
+url: http://127.0.0.1:8001/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "m2561357",
+    	"email": "mohammadhosine87@yahoo.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695160609528
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

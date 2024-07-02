@@ -1,0 +1,45 @@
+_id: req_d3aec0b6efa54fdbb09abd7e4a169289
+type: Request
+parentId: fld_ad595f6ff7b943d6bccc42f2abfebd6c
+modified: 1717078032249
+created: 1717077335249
+url: https://api.segmind.com/v1/sdxl1.0-newreality-lightning
+name: Image Reality
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"prompt": "Thelema-themed, ethereal fantasy concept art of  Dystopian style Grim-noire, wide angle shot, (establishing shot:1.7), Perfect photograph, ((Hell hath no queen! But, o thou red mouthed curving In kisses that bring blood, shall I be alone? What of the accomplice of these deeds unswerving? Will not your dead hot kisses match mine own? As here your ardours brand me bone and marrow Biting like fire and poison in my veins, Shall you not there still ply your nameless harrow. Mingle a cup from those our common pains To intoxicate us with an extreme pleasure Keener than life, more dolorous than death Till these infernal blisses pass the measure Of heaven imagined by the tremulous breaths Of silly saints and silly sinners, swaying From scraps of blasphemy to scraps of praying?)), perfect composition, dynamic lighting, dramatic action, trending on artstation, sharp focus, studio photo, intricate details, highly detailed,  Bleak, post-apocalyptic, somber, dramatic, highly detailed, dramatic , Zeiss Master Prime Lenses, Panavision, Film Stock Footage, Kodak Eastman 100T 5247 Cinematic .magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy, misc, . highly detailed",
+    	"negative_prompt": "((close up)),(octane render, render, drawing, bad photo, bad photography:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured",
+    	"samples": 1,
+    	"scheduler": "DPM++ SDE",
+    	"num_inference_steps": 7,
+    	"guidance_scale": 1,
+    	"seed": 1220429729,
+    	"img_width": 1024,
+    	"img_height": 1024,
+    	"base64": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0702807bca7945fc8cad88ffc5df08ac
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_73354f5644b340029d085eb87b9d2e3e
+  - id: pair_8ee5748099a74ed9934306bcf18f4749
+    name: x-api-key
+    value: SG_17f93e5655807b5b
+    description: ""
+authentication: {}
+metaSortKey: -1717078028139
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

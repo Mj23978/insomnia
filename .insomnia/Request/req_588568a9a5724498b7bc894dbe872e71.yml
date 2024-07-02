@@ -1,0 +1,67 @@
+_id: req_588568a9a5724498b7bc894dbe872e71
+type: Request
+parentId: fld_b84a5a9ca03e445b859f0314061702a6
+modified: 1700798086995
+created: 1700797288490
+url: https://neuroapi.host/v1/chat/completions
+name: Chat Completion [ Function-Call-2 ]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"model": "gpt-3.5-turbo-1106",
+    	"messages": [
+    		{
+    			"role": "user",
+    			"content": "What is the weather like in Boston?"
+    		}
+    	],
+    	"tools": [
+    		{
+    			"type": "function",
+    			"function": {
+    				"name": "get_current_weather",
+    				"description": "Get the current weather in a given location",
+    				"parameters": {
+    					"type": "object",
+    					"properties": {
+    						"location": {
+    							"type": "string",
+    							"description": "The city and state, e.g. San Francisco, CA"
+    						},
+    						"unit": {
+    							"type": "string",
+    							"enum": [
+    								"celsius",
+    								"fahrenheit"
+    							]
+    						}
+    					},
+    					"required": [
+    						"location"
+    					]
+    				}
+    			}
+    		}
+    	],
+    	"tool_choice": "auto"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: sk-zGRW7yRI4zCSjh9E8197B71d7bFa40C4A960272f1932CcFd
+metaSortKey: -1699377827914
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_1d5c302f7f67404a9895146d71f93157
+type: Request
+parentId: fld_c0a3cd206e3b4d0896da01b16fedbc6f
+modified: 1719130376002
+created: 1718913887899
+url: "{{ _.base_url }}/api/v1/website-owner"
+name: Create Website Owner
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4ccb79e26cee495baaf43289474db598
+  - id: pair_a0035e34db244a48898e555473ca82c3
+    name: X-API-KEY
+    value: "{{ _.api_key }}"
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1717092188853.4434
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

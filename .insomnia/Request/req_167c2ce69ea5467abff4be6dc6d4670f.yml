@@ -1,0 +1,31 @@
+_id: req_167c2ce69ea5467abff4be6dc6d4670f
+type: Request
+parentId: fld_c0a3cd206e3b4d0896da01b16fedbc6f
+modified: 1719271731292
+created: 1719241346951
+url: "{{ _.base_url }}/api/v1/user?email=test@yahoo.com"
+name: Get users
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4ccb79e26cee495baaf43289474db598
+  - id: pair_a0035e34db244a48898e555473ca82c3
+    name: X-API-KEY
+    value: "{{ _.api_key }}"
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1717247954512.3203
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

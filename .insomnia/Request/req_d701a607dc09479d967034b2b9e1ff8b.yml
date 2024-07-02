@@ -1,0 +1,25 @@
+_id: req_d701a607dc09479d967034b2b9e1ff8b
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702242490105
+created: 1702155171926
+url: "{{ _.url }}/PMWorks/SparePartDimension/"
+name: Get SparePartDimension
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452822186.122
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

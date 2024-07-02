@@ -1,0 +1,33 @@
+_id: req_abfde3a532624288aaff87ba328ae8e8
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1699583434528
+created: 1699317719033
+url: localhost:8080/vectordb/search
+name: Vector Store Search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"input": "where is paris",
+    	"model": "BAAI/bge-small-en",
+    	"db": "chromadb",
+    	"index_name": "sam"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

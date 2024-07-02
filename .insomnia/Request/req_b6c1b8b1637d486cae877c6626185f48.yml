@@ -1,0 +1,33 @@
+_id: req_b6c1b8b1637d486cae877c6626185f48
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1701861839058
+created: 1699436001773
+url: localhost:8080/completions
+name: Completion [ Longl ]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"model": "NousResearch/Nous-Capybara-7B-V1p9",
+    	"prompt": [
+    			"What is the weather like in Mashhad ?"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832340.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

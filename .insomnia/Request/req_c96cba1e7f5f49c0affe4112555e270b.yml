@@ -1,0 +1,50 @@
+_id: req_c96cba1e7f5f49c0affe4112555e270b
+type: Request
+parentId: fld_ad595f6ff7b943d6bccc42f2abfebd6c
+modified: 1717078036197
+created: 1717042778175
+url: https://api.segmind.com/v1/face-to-sticker
+name: Face to Sticker
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "image": "https://segmind-sd-models.s3.amazonaws.com/display_images/face-to-sticker-input.jpg",
+      "steps": 20,
+      "width": 1024,
+      "height": 1024,
+      "prompt": "a person",
+      "upscale": false,
+      "upscale_steps": 10,
+      "negative_prompt": "",
+      "prompt_strength": 7,
+      "ip_adapter_noise": 0.5,
+      "ip_adapter_weight": 0.2,
+      "instant_id_strength": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7ce1576678fa468db367c44c3daf5c1e
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_78d52c312dc1433bb5b7a53671cbdaa5
+  - id: pair_fd9d25de6c1747e289f55e94450d4256
+    name: x-api-key
+    value: SG_17f93e5655807b5b
+    description: ""
+authentication:
+  type: bearer
+  token: SG_17f93e5655807b5b
+  disabled: true
+metaSortKey: -1717078028339
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

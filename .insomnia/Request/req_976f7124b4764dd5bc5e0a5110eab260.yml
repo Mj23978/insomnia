@@ -1,0 +1,25 @@
+_id: req_976f7124b4764dd5bc5e0a5110eab260
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702242659743
+created: 1702155700620
+url: "{{ _.url }}/PMWorks/WOTemplateSchualing/"
+name: Get WOTemplateSchualing
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452815154.8223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

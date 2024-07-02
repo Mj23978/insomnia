@@ -1,0 +1,36 @@
+_id: req_61a5f64e24984da5bf4f78a55ba16ed5
+type: Request
+parentId: wrk_62ac0ac8224744d0af364eb753cae566
+modified: 1699271986918
+created: 1694751340096
+url: https://mj23978-deepseek-coder-6-7b-instruct-gguf.hf.space/v1/chat/completions
+name: "mine g4f "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"max_tokens": "400",
+    	"messages": [
+    		{
+    			"role": "user",
+    			"content": "write a game of hangman in python"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694747771091
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

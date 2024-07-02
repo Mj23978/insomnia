@@ -1,0 +1,25 @@
+_id: req_deeaae01eba2482e9d97e0e133832953
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1701760342174
+created: 1701760338383
+url: "{{ _.url }}/PMWorks/Delay"
+name: Get Delay
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699453205720.2432
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

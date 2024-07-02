@@ -1,0 +1,25 @@
+_id: req_e687825c0b604f1da86fbfa27b0cd210
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702242501579
+created: 1702155889150
+url: "{{ _.url }}/PMWorks/TemplateSchualingDate/"
+name: Get TemplateSchualingDate
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452821422.1099
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

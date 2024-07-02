@@ -1,0 +1,31 @@
+_id: req_7e9f5c4affd7497cb0f5cf32f6c05de7
+type: Request
+parentId: wrk_62ac0ac8224744d0af364eb753cae566
+modified: 1698618281671
+created: 1698616861022
+url: localhost:8080/completion
+name: llamacpp
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"stream": true,
+    	"prompt": "jane is faster than joe, joe is faster than sam, is sam faster than jane ? Explain your reasoning step by step."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694747771109.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

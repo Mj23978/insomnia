@@ -1,0 +1,34 @@
+_id: req_d0817b1d248648999af45634ba938917
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1699662964232
+created: 1699662907599
+url: localhost:8080/images/generations
+name: Image Generations [ OpenAI ]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"prompt": "",
+    	"model": "dall-e-3",
+    	"steps": 25,
+    	"size": "1024x1024",
+    	"response_format": "url"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696732693000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

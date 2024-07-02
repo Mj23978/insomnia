@@ -1,0 +1,45 @@
+_id: req_3e67c104f872485b9512e7b26a4a175c
+type: Request
+parentId: fld_ad595f6ff7b943d6bccc42f2abfebd6c
+modified: 1717078028100
+created: 1717077655654
+url: https://api.segmind.com/v1/sdxl1.0-protovis-lightning
+name: Proto Vision
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"prompt": "Disney Animation, Pixar Studios, 3D Rendering, bear in a wooden rocking chair, wearing a red pastel dress with beautiful embellishments, reading a book, near a fireplace, in a log cabin, with blue sky and clouds with a rainbow in the window",
+    	"negative_prompt": "(octane render, render, drawing, bad photo, bad photography:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured",
+    	"samples": 1,
+    	"scheduler": "DPM++ SDE",
+    	"num_inference_steps": 6,
+    	"guidance_scale": 1,
+    	"seed": -1,
+    	"img_width": 1024,
+    	"img_height": 1024,
+    	"base64": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0f76b201b6bb4202bbc950d84a18d476
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_efaf49be2def41bf93bce65ca1e221b5
+  - id: pair_e32c2c1da7724b6980ca53b1a58c5c68
+    name: x-api-key
+    value: SG_2990fe94347ec5a7
+    description: ""
+authentication: {}
+metaSortKey: -1717078028039
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

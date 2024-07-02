@@ -1,0 +1,29 @@
+_id: req_fabc4730444e46c0817437827c7f3307
+type: Request
+parentId: wrk_62ac0ac8224744d0af364eb753cae566
+modified: 1695639628447
+created: 1695639589979
+url: http://127.0.0.1:8001/user
+name: Get User
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtb2hhbW1hZGhvc2luZTg3QHlhaG9vLmNvbSIsImlhdCI6MTY5NTYzOTUyNywibmJmIjoxNjk1NjM5NTI3LCJqdGkiOiI3NGY4ZDU1YS1mM2Y4LTQzNWQtYmEzMS0xNGVjZjc1ZTEyYzgiLCJleHAiOjE2OTYzNTk1MjcsInR5cGUiOiJhY2Nlc3MiLCJmcmVzaCI6ZmFsc2V9.V_l7fWshsbLfiWKjY0f79SecJ3bpddzP-tm-UywDeQo
+metaSortKey: -1695057399956.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

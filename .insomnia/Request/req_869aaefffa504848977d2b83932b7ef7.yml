@@ -1,0 +1,25 @@
+_id: req_869aaefffa504848977d2b83932b7ef7
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1701760359625
+created: 1701760355058
+url: "{{ _.url }}/PMWorks/Department"
+name: Get Department
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699453010133.1216
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

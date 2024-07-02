@@ -1,0 +1,32 @@
+_id: req_32f5a1e6478545adb87d44ce9a391b74
+type: Request
+parentId: fld_c0a3cd206e3b4d0896da01b16fedbc6f
+modified: 1719131172873
+created: 1718988859066
+url: "{{ _.base_url
+  }}/api/v1/appointment?websiteId=526589e6-e721-4636-bd0f-13a2b708bb5e"
+name: Get Appointment
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4ccb79e26cee495baaf43289474db598
+  - id: pair_a0035e34db244a48898e555473ca82c3
+    name: X-API-KEY
+    value: "{{ _.api_key }}"
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1717085551112.298
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

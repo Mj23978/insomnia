@@ -1,0 +1,35 @@
+_id: req_b0bf5dd6e43b4fc5a3106852aab271cd
+type: Request
+parentId: fld_c0a3cd206e3b4d0896da01b16fedbc6f
+modified: 1718885141006
+created: 1718883366782
+url: "{{ _.base_url }}/api/v1/auth/refresh"
+name: Refresh
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"refresh": "{{ _.refresh }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: apikey
+  disabled: false
+  key: X-API-KEY
+  value: "{{ _.api_key }}"
+  addTo: header
+metaSortKey: -1717600878103.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

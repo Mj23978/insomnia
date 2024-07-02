@@ -1,0 +1,25 @@
+_id: req_6aca2d47fca7438ab76a44f5308e00a7
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1701735339214
+created: 1701735332721
+url: "{{ _.url }}/PMWorks/AssetClassTask"
+name: Get AssetClassTask
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699459073333.8906
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_7baff6ea2ffe426783a47149a31fd316
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1699358467578
+created: 1699234786529
+url: localhost:8080/embeddings
+name: Embeddings Text
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"input": [
+          "Pizza is a dish.",
+          "Paris is the capital of France",
+          "numpy is a lib for linear algebra"
+      ],
+    	"model": "BAAI/bge-small-en"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832170
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

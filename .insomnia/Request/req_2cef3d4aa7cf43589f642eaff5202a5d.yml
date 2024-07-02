@@ -1,0 +1,71 @@
+_id: req_2cef3d4aa7cf43589f642eaff5202a5d
+type: Request
+parentId: fld_b84a5a9ca03e445b859f0314061702a6
+modified: 1700796852383
+created: 1700795369367
+url: https://neuroapi.host/v1/chat/completions
+name: Chat Completion [ Function-Call-2 ]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"model": "gpt-3.5-turbo-1106",
+    	"api_key": "sk-zGRW7yRI4zCSjh9E8197B71d7bFa40C4A960272f1932CcFd",
+    	"messages": [
+    		{
+    			"role": "user",
+    			"content": "David Nguyen is a sophomore majoring in computer science at Stanford University. He is Asian American and has a 3.8 GPA. David is known for his programming skills and is an active member of the university's Robotics Club. He hopes to pursue a career in artificial intelligence after graduating."
+    		}
+    	],
+    	"functions": [
+        {
+            "name": "extract_student_info",
+            "description": "Get the student information from the body of the input text",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Name of the person"
+                    },
+                    "major": {
+                        "type": "string",
+                        "description": "Major subject."
+                    },
+                    "school": {
+                        "type": "string",
+                        "description": "The university name."
+                    },
+                    "grades": {
+                        "type": "integer",
+                        "description": "GPA of the student."
+                    },
+                    "club": {
+                        "type": "string",
+                        "description": "School club for extracurricular activities. "
+                    }                
+                }
+            }
+        }
+    ]
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: sk-zGRW7yRI4zCSjh9E8197B71d7bFa40C4A960272f1932CcFd
+metaSortKey: -1699402823358
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

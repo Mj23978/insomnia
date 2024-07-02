@@ -1,0 +1,70 @@
+_id: req_8531cdb179a646f5a2443f256324639e
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1701871189037
+created: 1699002878130
+url: localhost:8080/chat/completions
+name: Chat Completion [ Function-Call-2 ]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"model": "neuroapi/gpt-3.5-turbo-1106",
+    	"api_key": "sk-zGRW7yRI4zCSjh9E8197B71d7bFa40C4A960272f1932CcFd",
+    	"n_gpu_layers": 30,
+    	"messages": [
+    		{
+    			"role": "user",
+    			"content": "David Nguyen is a sophomore majoring in computer science at Stanford University. He is Asian American and has a 3.8 GPA. David is known for his programming skills and is an active member of the university's Robotics Club. He hopes to pursue a career in artificial intelligence after graduating."
+    		}
+    	],
+    	"functions": [
+        {
+            "name": "extract_student_info",
+            "description": "Get the student information from the body of the input text",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Name of the person"
+                    },
+                    "major": {
+                        "type": "string",
+                        "description": "Major subject."
+                    },
+                    "school": {
+                        "type": "string",
+                        "description": "The university name."
+                    },
+                    "grades": {
+                        "type": "integer",
+                        "description": "GPA of the student."
+                    },
+                    "club": {
+                        "type": "string",
+                        "description": "School club for extracurricular activities. "
+                    }                
+                }
+            }
+        }
+    ]
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

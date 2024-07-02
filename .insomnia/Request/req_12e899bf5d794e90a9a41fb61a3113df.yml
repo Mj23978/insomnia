@@ -1,0 +1,36 @@
+_id: req_12e899bf5d794e90a9a41fb61a3113df
+type: Request
+parentId: fld_38360f3ff380460684006228e0a43891
+modified: 1716459657979
+created: 1716459559734
+url: http://localhost:11434/v1/chat/completions
+name: Chat
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"model": "phi3",
+    		"messages": [
+    		{
+    			"role": "user",
+    			"content": "What is the weather like in Boston?"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1715545717647.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

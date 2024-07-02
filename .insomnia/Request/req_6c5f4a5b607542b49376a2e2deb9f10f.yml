@@ -1,0 +1,23 @@
+_id: req_6c5f4a5b607542b49376a2e2deb9f10f
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1699358657810
+created: 1699358041371
+url: "{{ _.base_url }}/vectordb"
+name: Vector Databases
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832420.7812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

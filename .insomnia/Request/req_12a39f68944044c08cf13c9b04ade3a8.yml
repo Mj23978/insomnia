@@ -1,0 +1,25 @@
+_id: req_12a39f68944044c08cf13c9b04ade3a8
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702379393312
+created: 1702379389617
+url: "{{ _.url }}/PMWorks/Personnel"
+name: Get Personnel
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452826006.183
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

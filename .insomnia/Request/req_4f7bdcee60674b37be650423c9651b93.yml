@@ -1,0 +1,61 @@
+_id: req_4f7bdcee60674b37be650423c9651b93
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1701882846155
+created: 1696422325946
+url: localhost:8080/chat/completions
+name: Chat Completion [ Function-Call ]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"model": "openrouter/mythomist-7b",
+    	"messages": [
+    		{
+    			"role": "user",
+    			"content": "What is the weather like in Mashhad in celsius ?"
+    		}
+    	],
+    	"functions": [
+    		{
+    			"name": "get_current_weather",
+    			"description": "Get the current weather in a given location",
+    			"parameters": {
+    				"type": "object",
+    				"properties": {
+    					"location": {
+    						"type": "string",
+    						"description": "The city and state, e.g. San Francisco, CA"
+    					},
+    					"unit": {
+    						"type": "string",
+    						"enum": [
+    							"celsius",
+    							"fahrenheit"
+    						]
+    					}
+    				},
+    				"required": [
+    					"location"
+    				]
+    			}
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

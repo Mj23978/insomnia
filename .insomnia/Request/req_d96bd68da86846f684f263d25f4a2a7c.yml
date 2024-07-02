@@ -1,0 +1,35 @@
+_id: req_d96bd68da86846f684f263d25f4a2a7c
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1699625343205
+created: 1699620314661
+url: localhost:8080/images/generations
+name: Image Generations [Together]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"prompt": "A cyan haired man on vacation enjoying the local party scene  at dawn in Mos Eisley on the planet Tatooine in Star Wars , a look of terror scared horrified , futuristic Neon cyberpunk synthwave cybernetic  Robert Hagan and by Naoko Takeuchi",
+    	"negative_prompt": "(nsfw nudity naked nipples:1.3)",
+    	"model": "stabilityai/stable-diffusion-xl-base-1.0",
+    	"steps": 20,
+    	"size": "512x512",
+    	"response_format": "b64_json"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696208665176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

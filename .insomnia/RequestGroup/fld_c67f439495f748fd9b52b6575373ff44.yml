@@ -1,0 +1,15 @@
+_id: fld_c67f439495f748fd9b52b6575373ff44
+type: RequestGroup
+parentId: wrk_62ac0ac8224744d0af364eb753cae566
+modified: 1703500768944
+created: 1701054901909
+name: PMWorks
+description: ""
+environment:
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAzNTExMTkzLCJpYXQiOjE3MDM0OTMxOTMsImp0aSI6ImZhOGYxZTE3NjRiODQ1OWZiZjI0ZTgzMDQwNzFiZWJiIiwidXNlcl9pZCI6MSwicGVybWlzc2lvbnMiOlsiUk9XT1IiLCJST1dPIiwiUk9QTSIsIlJPQ08iLCJST0RBIiwiUk9SRSIsIlJPU1AiLCJST0hSIiwiUk9TQSIsIlJPRVEiLCJST0FDIiwiUk9XUiIsInVzIiwiYWQiLCJhYmNkIl0sInVzZXJuYW1lIjoiYWRtaW5pc3RyYXRvciJ9.z31RqsPCqRF--CAUebbpx_FD5aNoI_gDuYH1nrm8vbc
+  url: http://185.231.115.209:8080
+environmentPropertyOrder:
+  "&":
+    - token
+    - url
+metaSortKey: -1701054901909

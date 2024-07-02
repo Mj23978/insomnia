@@ -1,0 +1,31 @@
+_id: req_4e63bbcb13be460eb3b20b6c59f3c18e
+type: Request
+parentId: fld_c0a3cd206e3b4d0896da01b16fedbc6f
+modified: 1718885229364
+created: 1718885212478
+url: "{{ _.base_url }}/api/v1/api-key/5975ee57-ff40-4935-b25c-1979af57c4a6"
+name: Get Api Key
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4ccb79e26cee495baaf43289474db598
+  - id: pair_a0035e34db244a48898e555473ca82c3
+    name: X-API-KEY
+    value: "{{ _.api_key }}"
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1717191312454.5469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

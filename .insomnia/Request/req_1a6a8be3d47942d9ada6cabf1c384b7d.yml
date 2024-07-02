@@ -1,0 +1,25 @@
+_id: req_1a6a8be3d47942d9ada6cabf1c384b7d
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1701713075453
+created: 1701713034440
+url: "{{ _.url }}/PMWorks/AssetClass"
+name: Get AssetClass
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699603025455.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

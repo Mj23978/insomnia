@@ -1,0 +1,37 @@
+_id: req_3c61373db4f043bdb815c832092b9576
+type: Request
+parentId: fld_35b831296834495ca9757c7fb6e9ac17
+modified: 1699358597283
+created: 1699289226895
+url: localhost:8080/vectordb/embed
+name: "Vector Store Embed "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"input": [
+          "Pizza is a dish.",
+          "Paris is the capital of France",
+          "numpy is a lib for linear algebra"
+      ],
+    	"model": "BAAI/bge-small-en",
+    	"db": "chromadb",
+    	"index_name": "sam"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699352832145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

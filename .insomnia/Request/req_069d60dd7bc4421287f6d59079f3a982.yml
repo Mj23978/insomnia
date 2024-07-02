@@ -1,0 +1,48 @@
+_id: req_069d60dd7bc4421287f6d59079f3a982
+type: Request
+parentId: fld_ad595f6ff7b943d6bccc42f2abfebd6c
+modified: 1717085694662
+created: 1717076522509
+url: https://api.segmind.com/v1/instantid
+name: InstantID
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"prompt": "photo of a man",
+    	"pose_image": "toB64('undefined')",
+    	"negative_prompt": "lowquality, badquality, sketches",
+    	"style": "Vibrant Color",
+    	"samples": 1,
+    	"num_inference_steps": 10,
+    	"guidance_scale": 5,
+    	"seed": -1,
+    	"identity_strength": 0.8,
+    	"adapter_strength": 0.8,
+    	"enhance_face_region": true,
+    	"base64": false,
+    	"face_image": "toB64('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBKKYmf8XlCvfClfvhH-b2sy6qwbxc7ER8Yw&s')"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_80566b9fedad43c5a7bba557950f1c29
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_01abde9d7214494586138cc0d60c4dfa
+  - id: pair_4065c9e4bcf149378eb1ba6903d6d778
+    name: x-api-key
+    value: SG_2990fe94347ec5a7
+    description: ""
+authentication: {}
+metaSortKey: -1717078028239
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_ad9f0414b5b648f3a22960bc3a468ca6
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1701736250111
+created: 1701736248375
+url: "{{ _.url }}/PMWorks/AssetClassWRRep"
+name: Get AssetClassWRRep
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699455943939.9453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

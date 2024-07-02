@@ -1,0 +1,25 @@
+_id: req_adcae228b78b4b4aa5603f417a93eebc
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702242547754
+created: 1702156388461
+url: "{{ _.url }}/PMWorks/AssWRRep/"
+name: Get AssWRRep
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699453401307.3647
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

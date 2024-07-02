@@ -1,0 +1,38 @@
+_id: req_ec736c0d9bad4f28ab7915347de74b87
+type: Request
+parentId: fld_b84a5a9ca03e445b859f0314061702a6
+modified: 1699458123953
+created: 1699452814446
+url: http://127.0.0.1:8080/completion
+name: generate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"prompt": "What is the weather like in Mashhad ?",
+    	"n_ctx": 4096,
+    	"stream": true,
+    	"frequency_penalty": 1.2,
+    	"repeat_penalty": 1.4,
+    	"temp": "0.2",
+    	"top_p": 1,
+    	"top_k": 4,
+    	"stop": ["\n\n\n", "## USER:"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699452814446
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

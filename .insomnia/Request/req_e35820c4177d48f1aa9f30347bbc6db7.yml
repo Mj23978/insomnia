@@ -1,0 +1,25 @@
+_id: req_e35820c4177d48f1aa9f30347bbc6db7
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702242467653
+created: 1701441086293
+url: "{{ _.url }}/PMWorks/WorkOrder/?StatusID__OpCl=1"
+name: Get WorkOrder
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452815119.0093
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

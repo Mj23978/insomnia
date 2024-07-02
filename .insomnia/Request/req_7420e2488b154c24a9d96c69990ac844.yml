@@ -1,0 +1,25 @@
+_id: req_7420e2488b154c24a9d96c69990ac844
+type: Request
+parentId: fld_c67f439495f748fd9b52b6575373ff44
+modified: 1702242556441
+created: 1702164079143
+url: "{{ _.url }}/PMWorks/WOSupplierCost/"
+name: Get WOSupplierCost
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1699452814689.2522
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
